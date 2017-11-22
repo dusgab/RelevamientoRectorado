@@ -10,7 +10,7 @@
 </head>
 
 <script type="text/javascript">	
-	var pageID = 0;
+	var pageID = 9;
 	var drawing;			
 	function keyhandler(event)
 	{
@@ -48,12 +48,12 @@
 		drawing = new SilverlightDisplay.Drawing();
 		window.SilverlightObj = drawing;
 		Silverlight.createObjectEx({
-			source: 'xaml_1.xaml',
+			source: 'xaml_6.xaml',
 			parentElement: document.getElementById('SilverlightPlugInHost'),
 			id: 'SilverlightPlugIn',
 			properties: {
-				width: '2453',
-				height: '1154',
+				width: '841',
+				height: '595',
 				background:'#ffffff',
 				isWindowless: 'true',
 				version: '1.0'
@@ -72,7 +72,7 @@
 		pnz.callbackIndex = '__slEvent' + Silverlight._silverlightCount;
 		
 		Silverlight.createObjectEx({
-			source: 'xaml_1.xaml',
+			source: 'xaml_6.xaml',
 			parentElement: divThumb,
 			id: 'thumbnailHost',
 			properties: {

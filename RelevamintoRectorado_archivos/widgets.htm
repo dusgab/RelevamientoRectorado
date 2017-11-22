@@ -181,6 +181,52 @@
 	</table>
 	
 	
+	<div id="divGoto" class="holder">
+		<table width="100%" cellspacing="0" cellpadding="0" border="0" class="holderTable">
+		<tr><td>
+			<div class="fillcolor">
+				<table width="100%" cellspacing="0" cellpadding="1" border="0" class="fillcolor">
+				<tr>
+				<td style="padding:3px;"><a id="exp01" title="Contraer Ir a la página" href="javascript:widgets.ToggleWidget(hideGoto);"><p class="label" style="display:inline">Ir a la página</p></a></td>
+				<td width="15"><a id="exp02" title="Contraer Ir a la página" href="javascript:widgets.ToggleWidget(hideGoto);"><img id="exp0" alt="Contraer Ir a la página" src="minimize.gif" width="15" height="15" border="0"></a></td>
+				</tr>
+				</table>
+			</div>
+		</td></tr>
+		<tr><td>
+			<div id="hideGoto" class="hider" openAlt="Contraer Ir a la página" closedAlt="Expandir Ir a la página">
+				<form class="page" ID="formPage" onsubmit="parent.GoToPage(Select1.value); return false;">
+					<table width="100%" cellspacing="0" cellpadding="3" border="0">	
+					<tr>
+					<td>
+					<select class="formText" ID="Select1" NAME="Select1" title="Seleccione una página de la lista. Presione Entrar para ir a la página seleccionada." onkeyup="if(window.event.keyCode == 13) {parent.GoToPage(Select1.value);} return false;">
+					<script type="text/javascript" language="javascript">
+						var options = "";
+						for (var count = 0; count < fileList.length; count++)
+						{
+							options += '<option value="' + count + '">' + fileList[count].PageName + '</option>';
+						}
+
+						document.write (options);
+					</script>
+					</select>
+					</td>
+					<td width="18" class="gobutton">
+					<input type="image" src="go.gif" name="go" alt="Ir a la página seleccionada" width="18" height="18" border="0">
+					</td>
+					</tr>
+					</table>
+				</form>
+			</div>
+		</td></tr>
+		</table>	
+		
+		<script type="text/javascript" language="javascript">
+		    var hideGoto = document.getElementById("hideGoto");
+			hideGoto.img = "exp0";
+			widgets.Add(hideGoto, "GoTo");
+		</script>
+	</div>
 
 	
 	<div id="divPNZ" class="holder" dir=ltr>

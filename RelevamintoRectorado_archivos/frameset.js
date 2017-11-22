@@ -38,7 +38,7 @@ var slSupported = (MSIE && ver >= 5 && !isMac) || isFirefox;
 var isUpLevel = slSupported && slInstalled;
 var fShowWidgets = (MSIE && ver >= 5 && !isMac) || isFirefox;
 
-var xmlData = XMLData("infraestructura-rectorado-unne_archivos/data.xml");
+var xmlData = XMLData("RelevamintoRectorado_archivos/data.xml");
 
 var g_RowStyleList = new  Array(
  "propViewerEvenRow",

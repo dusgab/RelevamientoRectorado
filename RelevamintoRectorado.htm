@@ -11,7 +11,7 @@
 		<meta name="Compañía" content=""/>
 
 		<title>infraestructura</title>
-		<script src="infraestructura-rectorado-unne_archivos/frameset.js" type="text/javascript" language="javascript"></script>
+		<script src="RelevamintoRectorado_archivos/frameset.js" type="text/javascript" language="javascript"></script>
 		<script type="text/javascript" language="javascript" >
 
 function FileEntry (pageIndex, pageID, pageName, priImage, secImage) 
@@ -26,7 +26,15 @@ function FileEntry (pageIndex, pageID, pageName, priImage, secImage)
 var viewMgr = null;
 
 var g_FileList = new  Array(
- new FileEntry (1, 0, "Página-1", "xaml_1.htm", "png_1.htm")
+ new FileEntry (1, 7, "Título y Nombre", "xaml_1.htm", "png_1.htm"),
+ new FileEntry (2, 0, "Diagrama", "xaml_2.htm", "png_2.htm"),
+ new FileEntry (3, 4, "Objetivo", "xaml_3.htm", "png_3.htm"),
+ new FileEntry (4, 5, "Topología", "xaml_4.htm", "png_4.htm"),
+ new FileEntry (5, 6, "Formas de Acceso", "xaml_5.htm", "png_5.htm"),
+ new FileEntry (6, 9, "Formas de Acceso desde Internet", "xaml_6.htm", "png_6.htm"),
+ new FileEntry (7, 8, "Equipaminto Involucrado", "xaml_7.htm", "png_7.htm"),
+ new FileEntry (8, 10, "Sugerencias", "xaml_8.htm", "png_8.htm"),
+ new FileEntry (9, 11, "Conclusión", "xaml_9.htm", "png_9.htm")
 
 );
 
@@ -753,15 +761,23 @@ function CreateHLObj (hlNode)
 	</head>
 	
 	<frameset id="frmstOuter" cols="237,*">
-		<frame src="infraestructura-rectorado-unne_archivos/toolbar.htm" name="frmToolbar" id="frmToolbar" title="Este marco contiene herramientas para manipular el dibujo." frameborder="6" bordercolor="#999999" scrolling="no" marginheight="0" marginwidth="0" >
-		<frame src="infraestructura-rectorado-unne_archivos/png_1.htm" name="frmDrawing" title="Este marco contiene las páginas del dibujo." marginheight="10" marginwidth="10" onload="if (parent.isUpLevel) FramePageLoaded()" >
+		<frame src="RelevamintoRectorado_archivos/toolbar.htm" name="frmToolbar" id="frmToolbar" title="Este marco contiene herramientas para manipular el dibujo." frameborder="6" bordercolor="#999999" scrolling="no" marginheight="0" marginwidth="0" >
+		<frame src="RelevamintoRectorado_archivos/png_1.htm" name="frmDrawing" title="Este marco contiene las páginas del dibujo." marginheight="10" marginwidth="10" onload="if (parent.isUpLevel) FramePageLoaded()" >
 
 		<noframes>
 			<body>
 
 				<h1>infraestructura</h1>
 				<ul>
-				<li><a href="infraestructura-rectorado-unne_archivos/png_1.htm">Página-1</a></li>
+				<li><a href="RelevamintoRectorado_archivos/png_1.htm">Título y Nombre</a></li>
+				<li><a href="RelevamintoRectorado_archivos/png_2.htm">Diagrama</a></li>
+				<li><a href="RelevamintoRectorado_archivos/png_3.htm">Objetivo</a></li>
+				<li><a href="RelevamintoRectorado_archivos/png_4.htm">Topología</a></li>
+				<li><a href="RelevamintoRectorado_archivos/png_5.htm">Formas de Acceso</a></li>
+				<li><a href="RelevamintoRectorado_archivos/png_6.htm">Formas de Acceso desde Internet</a></li>
+				<li><a href="RelevamintoRectorado_archivos/png_7.htm">Equipaminto Involucrado</a></li>
+				<li><a href="RelevamintoRectorado_archivos/png_8.htm">Sugerencias</a></li>
+				<li><a href="RelevamintoRectorado_archivos/png_9.htm">Conclusión</a></li>
 
 				</ul>
 			</body>

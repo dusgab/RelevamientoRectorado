@@ -5,7 +5,29 @@
 		<HyperlinkBase href=""></HyperlinkBase>
 	</DocumentProperties>
 	<Pages>
-		<Page ID="0" Name="Página-1" NameU="Page-1">
+		<Page ID="7" Name="Título y Nombre" NameU="Titulo y Nombre">
+			<Shapes>
+				<Shape ID="1" UniqueID="{3A0436C3-D57C-4FD9-87DA-E6B38E679010}" Name="Sheet.1" NameU="Sheet.1">
+					<Text>Relevamiento de Infraestructura en Rectorado UNNE
+
+Gassmann Dustin 
+41510
+
+2017</Text>
+					<XForm>
+						<PinX Unit="MM">5.927789729543423</PinX>
+						<PinY Unit="MM">2.076308342923809</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{2608944F-C8B2-47E1-A2DE-1F31A3FDA05B}" Name="Sheet.2" NameU="Sheet.2">
+					<XForm>
+						<PinX Unit="MM">5.934448818897638</PinX>
+						<PinY Unit="MM">5.356692913385827</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="0" Name="Diagrama" NameU="Page-1">
 			<Layer IX="0">
 				<Name>Conector</Name>
 				<NameUniv>Connector</NameUniv>
@@ -3203,6 +3225,249 @@ TELECOM</Text>
 					<XForm>
 						<PinX Unit="MM">17.570866141732285</PinX>
 						<PinY Unit="MM">9.430227471566056</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="4" Name="Objetivo" NameU="Objetivo">
+			<Shapes>
+				<Shape ID="2" UniqueID="{2A34B249-0D18-4033-9EFB-ADB8683E584E}" Name="Sheet.2" NameU="Sheet.2">
+					<Text>Objetivo del trabajo:
+
+El presente trabajo tiene como objetivo demostrar y documentar el actual   funcionamiento del Data Center del Rectorado de la Universidad del Nordeste (UNNE), destacando la infraestructura, dimensiones, personal afectado, equipamiento utilizado y conexiones. Así de esta manera poder llegar a una conclusión de la forma en la que se opera en el lugar y proponer alguna mejora.</Text>
+					<XForm>
+						<PinX Unit="MM">6.074803149606302</PinX>
+						<PinY Unit="MM">6.283177074290564</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="1" UniqueID="{BF018448-7D49-49E9-BC19-494E69AE8A8F}" Name="Sheet.1" NameU="Sheet.1">
+					<XForm>
+						<PinX Unit="MM">5.843175853018376</PinX>
+						<PinY Unit="MM">2.362204724409448</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="5" Name="Topología" NameU="Topología">
+			<Layer IX="0">
+				<Name>Conector</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="1" UniqueID="{4B320A8E-A699-4A8A-A59B-7AC80A21EB6A}" Name="Sheet.1" NameU="Sheet.1">
+					<Text>Topología:
+
+La topología que presenta la interconexión de las redes de la UNNE es un forma de Árbol, a primera vista se podría decir que es una topología en estrella, pero la diferencia que tiene la de árbol es que puede distribuir las funciones principales del nodo central (nodo Rectorado), como sucede en este caso, ya que varias funciones, sobre todo las de servicios de inscripciones de las distintas Facultades se encuentran en el nodo principal de Rectorado, pero en caso de algún inconveniente, estos servicios pueden seguir siendo brindados por los nodos de cada Facultad.</Text>
+					<XForm>
+						<PinX Unit="MM">5.759842519685041</PinX>
+						<PinY Unit="MM">6.102362204724408</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{704577A6-2EE4-41ED-A3D8-BBB29661E34E}" Name="Círculo" NameU="Circle" Master="26">
+					<XForm>
+						<PinX Unit="MM">5.297244094488191</PinX>
+						<PinY Unit="MM">2.352362204724393</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{5518C01A-A982-49A5-910D-65D5082CA684}" Name="Círculo.3" NameU="Circle.3" Master="26">
+					<XForm>
+						<PinX Unit="MM">7.059055118110237</PinX>
+						<PinY Unit="MM">3.346456692913368</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{1BDF4B16-37C5-490C-9859-EEFCAC8EB700}" Name="Círculo.4" NameU="Circle.4" Master="26">
+					<XForm>
+						<PinX Unit="MM">3.515748031496065</PinX>
+						<PinY Unit="MM">3.641732283464551</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{9E159564-BDF1-41EF-9694-0ED229F53C66}" Name="Círculo.5" NameU="Circle.5" Master="26">
+					<XForm>
+						<PinX Unit="MM">8.456692913385831</PinX>
+						<PinY Unit="MM">4.232283464566921</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{CA655F39-D5A1-478D-872B-9BB9672306ED}" Name="Círculo.6" NameU="Circle.6" Master="26">
+					<XForm>
+						<PinX Unit="MM">3.122047244094490</PinX>
+						<PinY Unit="MM">1.968503937007857</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="7" UniqueID="{5E4D9D91-4FFC-486F-9F79-29DD35057685}" Name="Círculo.7" NameU="Circle.7" Master="26">
+					<XForm>
+						<PinX Unit="MM">4.204724409448818</PinX>
+						<PinY Unit="MM">0.688976377952742</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{8C58D06E-AA08-4416-85E5-A6472893A62C}" Name="Círculo.8" NameU="Circle.8" Master="26">
+					<XForm>
+						<PinX Unit="MM">8.732283464566931</PinX>
+						<PinY Unit="MM">2.460629921259826</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="9" UniqueID="{175CA13A-AF03-4C66-8B27-257F078B24AF}" Name="Círculo.9" NameU="Circle.9" Master="26">
+					<XForm>
+						<PinX Unit="MM">6.862204724409451</PinX>
+						<PinY Unit="MM">1.279527559055096</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{F15B3199-07F7-4731-8D1A-12D61139EAEC}" Name="Sheet.10" NameU="Sheet.10">
+					<XForm>
+						<PinX Unit="MM">6.133858267716535</PinX>
+						<PinY Unit="MM">1.815944881889745</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="11" UniqueID="{8FDCBE54-4935-4C09-9C27-4CB1EB441E1B}" Name="Sheet.11" NameU="Sheet.11">
+					<XForm>
+						<PinX Unit="MM">4.750984251968504</PinX>
+						<PinY Unit="MM">1.466535433070852</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="12" UniqueID="{F004B448-5320-4F9C-8191-4436902B1C35}" Name="Sheet.12" NameU="Sheet.12">
+					<XForm>
+						<PinX Unit="MM">4.155511811023624</PinX>
+						<PinY Unit="MM">2.160433070866125</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="14" UniqueID="{039E6A8E-4AFD-4749-B6BE-9F8C984652ED}" Name="Sheet.14" NameU="Sheet.14">
+					<XForm>
+						<PinX Unit="MM">7.895669291338585</PinX>
+						<PinY Unit="MM">3.277559055118101</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="13" UniqueID="{E99BC8CA-012E-4FA5-96BB-49004F2343C6}" Name="Sheet.13" NameU="Sheet.13">
+					<XForm>
+						<PinX Unit="MM">5.287401574803151</PinX>
+						<PinY Unit="MM">3.198818897637779</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="6" Name="Formas de Acceso" NameU="Formas de Acceso">
+			<Shapes>
+				<Shape ID="1" UniqueID="{219EADCA-40B9-4EA0-BB9F-2CD12D617BBE}" Name="Sheet.1" NameU="Sheet.1">
+					<Text>             Formas de acceso a Internet:
+
+La forma de acceso a Internet desde el interior de la UNNE se puede lograr por medio de una conexión LAN-TO-LAN en algunos casos, como por ejemplo en la Facultad de Medicina o Campus Libertad, o bien mediante Proveedores ISP locales, como Gigared o Arnet, contratando estos servicios de forma particular para cada Facultad, obteniendo un acceso a Internet sin pasar por alguna Red perteneciente a la UNNE.</Text>
+					<XForm>
+						<PinX Unit="MM">6.959820610397849</PinX>
+						<PinY Unit="MM">5.885167627892948</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{866ED9AC-1799-447A-8030-AA595F188F05}" Name="Sheet.2" NameU="Sheet.2">
+					<XForm>
+						<PinX Unit="MM">2.137795275590553</PinX>
+						<PinY Unit="MM">4.330708661417322</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{8FC1CF33-4312-4B4F-AF5A-5F95C1CE10EE}" Name="Sheet.3" NameU="Sheet.3">
+					<XForm>
+						<PinX Unit="MM">8.091494422572179</PinX>
+						<PinY Unit="MM">2.090182086614173</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="9" Name="Formas de Acceso desde Internet" NameU="Formas de Acceso desde Internet">
+			<Layer IX="0">
+				<Name>Conector</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="1" UniqueID="{1039DD3E-34BC-4CF7-BED5-93FBD81A5E23}" Name="Sheet.1" NameU="Sheet.1">
+					<Text>Formas de acceso desde Internet:
+
+La UNNE cuenta con varios servicios a los que se pueden acceder desde afuera de la Red, como ser Servicios de Inscripciones a Materias (SIU), Publicaciones de Trabajos de Investigación, Aulas Virtuales, etc.
+Estos servicios se encuentran en su mayoría en los servidores de Rectorado, y es a estos servidores a los que se ingresa para obtener acceso a estos servicios, pero en el caso de que los servidores de Rectorado no estén funcionando correctamente, se puede seguir accediendo a algunos de estos servicios mediante los accesos particulares de ISP que tienen cada Facultad, como por ejemplo si alguien desea inscribirse a un examen y el servidor de Rectorado no está disponible en el momento, esta petición ingresa por el servicio de Internet contratado en forma particular de la Facultad a la que se quiere acceder.</Text>
+					<XForm>
+						<PinX Unit="MM">5.877952755905513</PinX>
+						<PinY Unit="MM">5.576771653543306</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{0820613A-E62E-408F-8B8E-F56364BF3985}" Name="Sheet.2" NameU="Sheet.2">
+					<XForm>
+						<PinX Unit="MM">8.732283464566930</PinX>
+						<PinY Unit="MM">1.695374015748032</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="8" Name="Equipaminto Involucrado" NameU="Equipaminto Involucrado">
+			<Shapes>
+				<Shape ID="1" UniqueID="{ECE965AF-552E-44E5-B7F1-B31A721774D1}" Name="Sheet.1" NameU="Sheet.1">
+					<Text>Equipamiento Involucrado:
+
+En cada Campus hay 2 host con 1 Hipervisor sobre estos y 1 storage. A su vez en el Data Center se dispone de 60 máquinas virtuales implementadas, conectadas a un storage de 9 TB en Raid 5 para almacenar la información.
+Otras de las herramientas utilizadas para la administración del Data Center es GLPI, un sistema de tickets y reportes para realizar el seguimiento de los problemas reportados a solucionar. De esta forma se lleva un control más organizado del desarrollo, mantenimiento y depurado de las aplicaciones e inconvenientes que pueden surgir.
+</Text>
+					<XForm>
+						<PinX Unit="MM">5.677974665192711</PinX>
+						<PinY Unit="MM">5.458450756707779</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{35F5A4D7-FA66-4BAA-A5A7-19F0825E80F4}" Name="Sheet.2" NameU="Sheet.2">
+					<XForm>
+						<PinX Unit="MM">2.765686515748032</PinX>
+						<PinY Unit="MM">2.099563431634725</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{37BE53B3-710D-41AB-BAEE-1CD155407967}" Name="Sheet.3" NameU="Sheet.3">
+					<XForm>
+						<PinX Unit="MM">9.139524277023629</PinX>
+						<PinY Unit="MM">1.265594056730905</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{A32FAAC1-4575-493D-B8D0-22DEE7844414}" Name="Sheet.4" NameU="Sheet.4">
+					<Text>Los backup’s se realizan con la herramienta Bacula, la cual generar backup’s en Redes IP.</Text>
+					<XForm>
+						<PinX Unit="MM">9.224409448818898</PinX>
+						<PinY Unit="MM">3.031496062992126</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="10" Name="Sugerencias" NameU="Sugerencias">
+			<Shapes>
+				<Shape ID="1" UniqueID="{798B3169-1A98-4B2C-9762-5796C4FB7BE7}" Name="Sheet.1" NameU="Sheet.1">
+					<Text>Sugerencias:
+
+Las sugerencias propuestas son las siguientes:
+	Interconectar todos los campus mediante fibra óptica.
+	Comprobar que los backup’s generados funcionan correctamente.
+	Mejorar las instalaciones del cuarto de Data Center en Rectorado, en cuanto a Refrigeración, circulación de aire, incorporar sensores de Temperatura y Humedad para un mejor control de las condiciones.
+	Mejorar acceso a Internet publico en las Facultades para los alumnos.</Text>
+					<XForm>
+						<PinX Unit="MM">5.877952755905513</PinX>
+						<PinY Unit="MM">5.534577226229290</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{33DA5E39-D2A7-4D79-A2EF-D454AF3988CA}" Name="Sheet.3" NameU="Sheet.3">
+					<XForm>
+						<PinX Unit="MM">8.994100585308416</PinX>
+						<PinY Unit="MM">1.771653543307087</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="11" Name="Conclusión" NameU="Conclusión">
+			<Shapes>
+				<Shape ID="1" UniqueID="{E1A1DAF5-1878-4246-8E64-A57F77B08899}" Name="Sheet.1" NameU="Sheet.1">
+					<Text>Conclusión: 
+
+Con esta actividad pudimos observar el verdadero funcionamiento y las formas de comunicación de una gran Organización como lo es la UNNE. 
+Es muy importante que podamos apreciar estos aspectos en esta etapa de aprendizaje, donde podemos ver plasmados muchos de los concepto vistos de forma teórica y conocer como se implementan, administran y mantienen los diferentes recursos involucrados en la interconexión de una Organización.
+</Text>
+					<XForm>
+						<PinX Unit="MM">5.877952755905513</PinX>
+						<PinY Unit="MM">6.496062992125983</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{DFEA184D-DBEB-44E0-B936-01A81A3F4897}" Name="Sheet.2" NameU="Sheet.2">
+					<XForm>
+						<PinX Unit="MM">2.826771653543309</PinX>
+						<PinY Unit="MM">2.940452755905512</PinY>
 					</XForm>
 				</Shape>
 			</Shapes>
